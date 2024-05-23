@@ -38,7 +38,6 @@ public class FunctionalTest {
         Thread.sleep(2000);
         assertEquals("http://127.0.0.1:8083/q1", driver.getCurrentUrl());
 
-        // Answer the first question correctly
         WebElement number1FieldQ1 = driver.findElement(By.id("number1"));
         WebElement number2FieldQ1 = driver.findElement(By.id("number2"));
         WebElement resultFieldQ1 = driver.findElement(By.id("result"));
@@ -54,7 +53,7 @@ public class FunctionalTest {
         Thread.sleep(1000);
         assertEquals("http://127.0.0.1:8083/q2", driver.getCurrentUrl());
 
-        // Answer the second question correctly
+        
         WebElement number1FieldQ2 = driver.findElement(By.id("number1"));
         WebElement number2FieldQ2 = driver.findElement(By.id("number2"));
         WebElement resultFieldQ2 = driver.findElement(By.id("result"));
@@ -70,7 +69,7 @@ public class FunctionalTest {
         Thread.sleep(1000);
         assertEquals("http://127.0.0.1:8083/q3", driver.getCurrentUrl());
 
-        // Answer the third question correctly
+       
         WebElement number1FieldQ3 = driver.findElement(By.id("number1"));
         WebElement number2FieldQ3 = driver.findElement(By.id("number2"));
         WebElement resultFieldQ3 = driver.findElement(By.id("result"));
@@ -116,7 +115,7 @@ public class FunctionalTest {
         Thread.sleep(2000);
         assertEquals("http://127.0.0.1:8083/q1", driver.getCurrentUrl());
 
-        // Answer the first question correctly
+        
         WebElement number1FieldQ1 = driver.findElement(By.id("number1"));
         WebElement number2FieldQ1 = driver.findElement(By.id("number2"));
         WebElement resultFieldQ1 = driver.findElement(By.id("result"));
@@ -153,7 +152,7 @@ public class FunctionalTest {
         
         assertEquals("http://127.0.0.1:8083/q2", driver.getCurrentUrl());
 
-        // Answer the second question correctly
+        
         WebElement number1FieldQ2 = driver.findElement(By.id("number1"));
         WebElement number2FieldQ2 = driver.findElement(By.id("number2"));
         WebElement resultFieldQ2 = driver.findElement(By.id("result"));
@@ -169,7 +168,7 @@ public class FunctionalTest {
         Thread.sleep(2000);
         assertEquals("http://127.0.0.1:8083/q3", driver.getCurrentUrl());
 
-        // Answer the third question correctly
+        
         WebElement number1FieldQ3 = driver.findElement(By.id("number1"));
         WebElement number2FieldQ3 = driver.findElement(By.id("number2"));
         WebElement resultFieldQ3 = driver.findElement(By.id("result"));

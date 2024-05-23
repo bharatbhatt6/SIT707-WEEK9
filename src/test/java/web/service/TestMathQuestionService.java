@@ -11,32 +11,16 @@ public class TestMathQuestionService {
     }
 
     @Test
-    public void testAddNumber1Empty() {
+    public void testAddNumberEmpty() {
         Assert.assertNull(MathQuestionService.q1Addition("", "2"));
-    }
-
-    @Test
-    public void testAddNumber2Empty() {
         Assert.assertNull(MathQuestionService.q1Addition("1", ""));
-    }
-
-    @Test
-    public void testAddBothNumbersEmpty() {
         Assert.assertNull(MathQuestionService.q1Addition("", ""));
     }
 
     @Test
-    public void testAddInvalidNumber1() {
+    public void testAddInvalidNumber() {
         Assert.assertNull(MathQuestionService.q1Addition("a", "2"));
-    }
-
-    @Test
-    public void testAddInvalidNumber2() {
         Assert.assertNull(MathQuestionService.q1Addition("1", "b"));
-    }
-
-    @Test
-    public void testAddBothNumbersInvalid() {
         Assert.assertNull(MathQuestionService.q1Addition("a", "b"));
     }
 
@@ -46,32 +30,16 @@ public class TestMathQuestionService {
     }
 
     @Test
-    public void testSubtractionNumber1Empty() {
+    public void testSubtractionNumberEmpty() {
         Assert.assertNull(MathQuestionService.q2Subtraction("", "3"));
-    }
-
-    @Test
-    public void testSubtractionNumber2Empty() {
         Assert.assertNull(MathQuestionService.q2Subtraction("5", ""));
-    }
-
-    @Test
-    public void testSubtractionBothNumbersEmpty() {
         Assert.assertNull(MathQuestionService.q2Subtraction("", ""));
     }
 
     @Test
-    public void testSubtractionInvalidNumber1() {
+    public void testSubtractionInvalidNumber() {
         Assert.assertNull(MathQuestionService.q2Subtraction("a", "3"));
-    }
-
-    @Test
-    public void testSubtractionInvalidNumber2() {
         Assert.assertNull(MathQuestionService.q2Subtraction("5", "b"));
-    }
-
-    @Test
-    public void testSubtractionBothNumbersInvalid() {
         Assert.assertNull(MathQuestionService.q2Subtraction("a", "b"));
     }
 
@@ -81,32 +49,16 @@ public class TestMathQuestionService {
     }
 
     @Test
-    public void testMultiplicationNumber1Empty() {
+    public void testMultiplicationNumberEmpty() {
         Assert.assertNull(MathQuestionService.q3Multiplication("", "3"));
-    }
-
-    @Test
-    public void testMultiplicationNumber2Empty() {
         Assert.assertNull(MathQuestionService.q3Multiplication("2", ""));
-    }
-
-    @Test
-    public void testMultiplicationBothNumbersEmpty() {
         Assert.assertNull(MathQuestionService.q3Multiplication("", ""));
     }
 
     @Test
-    public void testMultiplicationInvalidNumber1() {
+    public void testMultiplicationInvalidNumber() {
         Assert.assertNull(MathQuestionService.q3Multiplication("a", "3"));
-    }
-
-    @Test
-    public void testMultiplicationInvalidNumber2() {
         Assert.assertNull(MathQuestionService.q3Multiplication("2", "b"));
-    }
-
-    @Test
-    public void testMultiplicationBothNumbersInvalid() {
         Assert.assertNull(MathQuestionService.q3Multiplication("a", "b"));
     }
 }
